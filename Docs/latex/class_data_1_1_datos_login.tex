@@ -1,0 +1,275 @@
+\hypertarget{class_data_1_1_datos_login}{}\doxysection{Referencia de la Clase Data.\+Datos\+Login}
+\label{class_data_1_1_datos_login}\index{Data.DatosLogin@{Data.DatosLogin}}
+
+
+Esta clase permite el acceso a los datos de Usuario en la base de datos del sistema.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_1_1_datos_login_aacda6937946bfe854c682d766219e629}\label{class_data_1_1_datos_login_aacda6937946bfe854c682d766219e629}} 
+{\bfseries Datos\+Login} ()
+\begin{DoxyCompactList}\small\item\em Inicializa la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}}. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ \mbox{\hyperlink{class_data_1_1_datos_login_a0bd0237bf128de905dc9edcdd3667673}{Consultar}} ()
+\begin{DoxyCompactList}\small\item\em Consulta todos los usuarios del sistema. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} \mbox{\hyperlink{class_data_1_1_datos_login_aee479c6552665d13a080d40a185363cc}{Consultar\+Usuario}} (String username)
+\begin{DoxyCompactList}\small\item\em Busca un \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+específico en la base de datos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_login_a34c0e86b7e2af33409a163e0841bde63}{Actualizar\+Usuario}} (\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} user)
+\begin{DoxyCompactList}\small\item\em Actualiza toods los datos de un \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+específico, a excepción del nombre de usuario, en la tabla de usuarios en la base de datos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_1_1_rol}{Rol}} \mbox{\hyperlink{class_data_1_1_datos_login_a0d5bae11b9eda772612a15989d5aed94}{Consultar\+Rol}} (string rol)
+\begin{DoxyCompactList}\small\item\em Busca un \begin{DoxySeeAlso}{Ver también}
+Rol
+
+
+\end{DoxySeeAlso}
+cuya descripción coincida con {\itshape rol}  en la base de datos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_login_a8fee56de8f370edfed18eb51f98da4a0}{Insertar\+Usuario}} (\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} user)
+\begin{DoxyCompactList}\small\item\em Inserta un nuevo \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+({\itshape user} ) en la base de datos del sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ \mbox{\hyperlink{class_data_1_1_datos_login_a9e7a2004f0ea659b25923d8f08d60e89}{Leer\+Resultados}} (Sql\+Data\+Reader datos)
+\begin{DoxyCompactList}\small\item\em Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de usuarios recuperados de este. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ \mbox{\hyperlink{class_data_1_1_datos_login_ab06ff60f37a30137502f08ec303b981c}{Consultar\+General}} ()
+\begin{DoxyCompactList}\small\item\em Consulta todos los usuarios registrados en la base de datos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} \mbox{\hyperlink{class_data_1_1_datos_login_af120e31fc797a2e6e159d84b9083bf12}{conexion}} = new \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}}()
+\begin{DoxyCompactList}\small\item\em Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Esta clase permite el acceso a los datos de Usuario en la base de datos del sistema. 
+
+Esta clase ejecuta procedimientos almacenados en la base de datos.
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_login_a34c0e86b7e2af33409a163e0841bde63}\label{class_data_1_1_datos_login_a34c0e86b7e2af33409a163e0841bde63}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!ActualizarUsuario@{ActualizarUsuario}}
+\index{ActualizarUsuario@{ActualizarUsuario}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{ActualizarUsuario()}{ActualizarUsuario()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Login.\+Actualizar\+Usuario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Actualiza toods los datos de un \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+específico, a excepción del nombre de usuario, en la tabla de usuarios en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Es un objeto de tipo \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+que contiene los nuevos datos a actualizar.\\
+\hline
+\end{DoxyParams}
+
+
+Se actualizará unicamente el registro cuyo nombre de usuario coincida con el de {\itshape user} .
+
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_login_a0bd0237bf128de905dc9edcdd3667673}\label{class_data_1_1_datos_login_a0bd0237bf128de905dc9edcdd3667673}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!Consultar@{Consultar}}
+\index{Consultar@{Consultar}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{Consultar()}{Consultar()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ Data.\+Datos\+Login.\+Consultar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Consulta todos los usuarios del sistema. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con todos los usuarios registrados en el sistema.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_1_1_datos_login_ab06ff60f37a30137502f08ec303b981c}\label{class_data_1_1_datos_login_ab06ff60f37a30137502f08ec303b981c}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!ConsultarGeneral@{ConsultarGeneral}}
+\index{ConsultarGeneral@{ConsultarGeneral}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{ConsultarGeneral()}{ConsultarGeneral()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ Data.\+Datos\+Login.\+Consultar\+General (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Consulta todos los usuarios registrados en la base de datos. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con todos los usuarios registrados en el sistema.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_login_a0d5bae11b9eda772612a15989d5aed94}\label{class_data_1_1_datos_login_a0d5bae11b9eda772612a15989d5aed94}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!ConsultarRol@{ConsultarRol}}
+\index{ConsultarRol@{ConsultarRol}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{ConsultarRol()}{ConsultarRol()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model_1_1_rol}{Rol}} Data.\+Datos\+Login.\+Consultar\+Rol (\begin{DoxyParamCaption}\item[{string}]{rol }\end{DoxyParamCaption})}
+
+
+
+Busca un \begin{DoxySeeAlso}{Ver también}
+Rol
+
+
+\end{DoxySeeAlso}
+cuya descripción coincida con {\itshape rol}  en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em rol} & Nombre del \begin{DoxySeeAlso}{Ver también}
+Rol
+
+
+\end{DoxySeeAlso}
+a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Rol
+
+
+\end{DoxySeeAlso}
+.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_login_aee479c6552665d13a080d40a185363cc}\label{class_data_1_1_datos_login_aee479c6552665d13a080d40a185363cc}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!ConsultarUsuario@{ConsultarUsuario}}
+\index{ConsultarUsuario@{ConsultarUsuario}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{ConsultarUsuario()}{ConsultarUsuario()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} Data.\+Datos\+Login.\+Consultar\+Usuario (\begin{DoxyParamCaption}\item[{String}]{username }\end{DoxyParamCaption})}
+
+
+
+Busca un \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+específico en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em username} & Es el nombre de usuario del \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+cuyo nombre de usuario coincida con el {\itshape username} , si no se encuentra al usuario devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_login_a8fee56de8f370edfed18eb51f98da4a0}\label{class_data_1_1_datos_login_a8fee56de8f370edfed18eb51f98da4a0}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!InsertarUsuario@{InsertarUsuario}}
+\index{InsertarUsuario@{InsertarUsuario}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{InsertarUsuario()}{InsertarUsuario()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Login.\+Insertar\+Usuario (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Inserta un nuevo \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+({\itshape user} ) en la base de datos del sistema. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Nuevo \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+a insertar en la base de datos.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_login_a9e7a2004f0ea659b25923d8f08d60e89}\label{class_data_1_1_datos_login_a9e7a2004f0ea659b25923d8f08d60e89}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!LeerResultados@{LeerResultados}}
+\index{LeerResultados@{LeerResultados}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{LeerResultados()}{LeerResultados()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ Data.\+Datos\+Login.\+Leer\+Resultados (\begin{DoxyParamCaption}\item[{Sql\+Data\+Reader}]{datos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de usuarios recuperados de este. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em datos} & Es un Sql\+Data\+Reader que contiene los resultados de una consulta previa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Usuario
+
+
+\end{DoxySeeAlso}
+correspondiente a todos los registros de {\itshape datos} .
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_login_af120e31fc797a2e6e159d84b9083bf12}\label{class_data_1_1_datos_login_af120e31fc797a2e6e159d84b9083bf12}} 
+\index{Data.DatosLogin@{Data.DatosLogin}!conexion@{conexion}}
+\index{conexion@{conexion}!Data.DatosLogin@{Data.DatosLogin}}
+\doxysubsubsection{\texorpdfstring{conexion}{conexion}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} Data.\+Datos\+Login.\+conexion = new \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. 
+
+Es necesaria para establecer copmunicación entre la aplicación y el servidor de bases de datos.
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Data/Datos\+Login.\+cs\end{DoxyCompactItemize}

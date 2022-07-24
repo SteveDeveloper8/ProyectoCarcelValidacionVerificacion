@@ -1,0 +1,1 @@
+search_result['119']=["topic_000000000000002F.html","Actividad.Cupos Property","Obtiene o establece los cupos de la actividad."];

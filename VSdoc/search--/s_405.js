@@ -1,0 +1,1 @@
+search_result['405']=["topic_0000000000000099.html","ControladorUsuario.ObtenerRol Method","Busca un rol cuya descripción coincida con rol."];

@@ -1,0 +1,1 @@
+c['82']=[['83',"BuscarExpediente Method","topic_00000000000000CD.html",0],['84',"BuscarRecluso Method","topic_00000000000000D1.html",0],['85',"ConsultarCargos Method","topic_00000000000000D0.html",0],['86',"ConsultarReclusos Method","topic_00000000000000CF.html",0],['87',"InsertarRecluso Method","topic_00000000000000CE.html",0]];

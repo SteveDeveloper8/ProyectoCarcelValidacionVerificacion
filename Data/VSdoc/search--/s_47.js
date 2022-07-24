@@ -1,0 +1,1 @@
+search_result['47']=["topic_0000000000000019.html","DatosLogin.ActualizarUsuario Method","Actualiza toods los datos de un \u003cseealso cref=\"Usuario\" /\u003e específico, a excepción del nombre de usuario, en la tabla de usuarios en la base de datos."];

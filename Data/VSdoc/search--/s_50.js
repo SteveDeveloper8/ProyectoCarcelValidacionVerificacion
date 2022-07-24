@@ -1,0 +1,1 @@
+search_result['50']=["topic_000000000000001C.html","DatosRecluso Class","Esta clase permite el acceso a los datos de Recluso en la base de datos del sistema."];

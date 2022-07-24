@@ -1,0 +1,1 @@
+search_result['25']=["topic_000000000000000D.html","ControladorUsuario.RetornaRol Method","Busca un el rol de un usuario específico que coincida con el usuario ingresado."];

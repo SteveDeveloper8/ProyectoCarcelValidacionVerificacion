@@ -1,0 +1,1 @@
+search_result['35']=["topic_0000000000000012.html","ControlCursosCurricular.ListarCursosDistancia Method","Metodo que se encarga de consultar cursos existentes."];

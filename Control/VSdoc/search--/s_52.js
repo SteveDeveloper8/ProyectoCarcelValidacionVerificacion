@@ -1,0 +1,1 @@
+search_result['52']=["topic_000000000000001E.html","ControlRecluso.ValidarRecluso Method","Valida que no exista un Recluso con la misma cedula."];

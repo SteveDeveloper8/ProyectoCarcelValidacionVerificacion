@@ -1,0 +1,1 @@
+search_result['36']=["topic_0000000000000013.html","DatosCursoCurricular.BuscarModalidadEstudio Method","Busca una \u003cseealso cref=\"ActividadCurricular\" /\u003e específica en la base de datos."];

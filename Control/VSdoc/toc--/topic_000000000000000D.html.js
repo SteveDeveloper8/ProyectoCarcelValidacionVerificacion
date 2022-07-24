@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"Control Reference","topic_0000000000000026.html"],['4',"Control Namespace","topic_0000000000000000.html"],['30',"ControladorUsuario Class","topic_0000000000000008.html"],['31',"Methods","topic_0000000000000008_methods--.html"],['37',"RetornaRol Method","topic_000000000000000D.html"]];

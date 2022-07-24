@@ -1,0 +1,1 @@
+search_result['440']=["topic_00000000000000A8.html","ControlRecluso.ListarCargos Method","Lista los Cargos de un Expediente cuyo código coincida con codigoExpediente."];

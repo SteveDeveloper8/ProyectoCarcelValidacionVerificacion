@@ -1,0 +1,1 @@
+search_result['138']=["topic_0000000000000038.html","ActividadCurricular.RemisionTotal Property","Obtiene o establece la remision total en dias de la actividad curricular."];

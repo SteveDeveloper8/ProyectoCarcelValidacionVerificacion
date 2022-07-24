@@ -1,0 +1,1 @@
+c['35']=[['36',"Delito Property","topic_0000000000000019.html",0],['37',"Descripcion Property","topic_0000000000000018.html",0],['38',"FechaHechos Property","topic_000000000000001C.html",0],['39',"Id Property","topic_000000000000001A.html",0],['40',"LugarHechos Property","topic_000000000000001B.html",0]];

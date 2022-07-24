@@ -1,0 +1,1 @@
+search_result['28']=["topic_000000000000000B_overloads--.html","ActividadCurricular Constructor","Constructor de la clase ActividadCurricular que inicializa una nueva actividad curricular a(cupos,descripcion,modalidad,remisionTotal,fechaInicio,fechaFin)."];

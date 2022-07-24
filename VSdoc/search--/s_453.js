@@ -1,0 +1,1 @@
+search_result['453']=["topic_00000000000000AB.html","CedulaRepetidaException Constructor","Constructor de la clase CedulaRepetidaException que inicializa una nueva excepcion."];

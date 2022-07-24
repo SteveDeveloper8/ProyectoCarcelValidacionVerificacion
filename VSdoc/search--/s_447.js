@@ -1,0 +1,1 @@
+search_result['447']=["topic_00000000000000AA.html","CedulaRepetidaException Class","Permite gestionar las excepciones con cedula repetida."];

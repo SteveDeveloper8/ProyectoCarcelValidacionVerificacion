@@ -1,0 +1,1 @@
+search_result['33']=["topic_0000000000000010.html","DatosCursoCurricular.EliminarEstudio Method","Eliina un registro de \u003cseealso cref=\"ActividadCurricular\" /\u003e de la base de datos del sistema cuya descripcion y modalidad coincidan."];

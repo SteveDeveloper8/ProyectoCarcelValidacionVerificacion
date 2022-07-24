@@ -1,0 +1,315 @@
+\hypertarget{class_data_1_1_datos_actividad_practica}{}\doxysection{Referencia de la Clase Data.\+Datos\+Actividad\+Practica}
+\label{class_data_1_1_datos_actividad_practica}\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+
+
+Esta clase permite el acceso a los datos de Actividad\+Practica en la base de datos del sistema.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_aded2ce1b86d5a7e4ff22cfad55a1f172}\label{class_data_1_1_datos_actividad_practica_aded2ce1b86d5a7e4ff22cfad55a1f172}} 
+{\bfseries Datos\+Actividad\+Practica} ()
+\begin{DoxyCompactList}\small\item\em Inicializa la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_add2ce6a129e2e97a42a0f15bfda32908}{Insertar\+Actividad}} (\mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} actividad)
+\begin{DoxyCompactList}\small\item\em Inserta una nueva \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+({\itshape actividad} ) en la base de datos del sistema. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_a724f6cd99300ce810bc8ddb00afe4871}{Eliminar\+Actividad}} (string descripcion, string modalidad)
+\begin{DoxyCompactList}\small\item\em Eliina un registro de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+de la base de datos del sistema cuya {\itshape descripcion}  y {\itshape modalidad}  coincidan. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_ab0436a9ca25a9e957282f8486e8ffdc1}{Consultar\+Actvidad\+Practica}} ()
+\begin{DoxyCompactList}\small\item\em Consulta todas las actividades prácticas registradas en la base de datos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_aea649f4a049059ca6f86b1824014ae34}{Buscar\+Descripcion\+Actividad}} (string descripcion)
+\begin{DoxyCompactList}\small\item\em Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_a3103fb9539e3041087ee7913e696543e}{Buscar\+Modalidad\+Actividad}} (string modalidad)
+\begin{DoxyCompactList}\small\item\em Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_ae694e9fbbf25940bb333406c29b1dab6}{Buscar\+Descripcion\+Modalidad\+Actividad}} (string descripcion, string modalidad)
+\begin{DoxyCompactList}\small\item\em Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_ac1bca0d9dd56cb3587cbaad862b25923}{Leer\+Resultados}} (Sql\+Data\+Reader datos)
+\begin{DoxyCompactList}\small\item\em Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de actividades prácticas recuperadas de este. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} \mbox{\hyperlink{class_data_1_1_datos_actividad_practica_a2b9257de55644743b8e1de9b48d18c27}{conexion}}
+\begin{DoxyCompactList}\small\item\em Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Esta clase permite el acceso a los datos de Actividad\+Practica en la base de datos del sistema. 
+
+Esta clase ejecuta procedimientos almacenados en la base de datos.
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_aea649f4a049059ca6f86b1824014ae34}\label{class_data_1_1_datos_actividad_practica_aea649f4a049059ca6f86b1824014ae34}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!BuscarDescripcionActividad@{BuscarDescripcionActividad}}
+\index{BuscarDescripcionActividad@{BuscarDescripcionActividad}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{BuscarDescripcionActividad()}{BuscarDescripcionActividad()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ Data.\+Datos\+Actividad\+Practica.\+Buscar\+Descripcion\+Actividad (\begin{DoxyParamCaption}\item[{string}]{descripcion }\end{DoxyParamCaption})}
+
+
+
+Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em descripcion} & La descripción de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+cuya descripción coincida con {\itshape descripcion} , si no se encuentra la actividad práctica devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_ae694e9fbbf25940bb333406c29b1dab6}\label{class_data_1_1_datos_actividad_practica_ae694e9fbbf25940bb333406c29b1dab6}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!BuscarDescripcionModalidadActividad@{BuscarDescripcionModalidadActividad}}
+\index{BuscarDescripcionModalidadActividad@{BuscarDescripcionModalidadActividad}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{BuscarDescripcionModalidadActividad()}{BuscarDescripcionModalidadActividad()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ Data.\+Datos\+Actividad\+Practica.\+Buscar\+Descripcion\+Modalidad\+Actividad (\begin{DoxyParamCaption}\item[{string}]{descripcion,  }\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+
+
+Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em modalidad} & La modalidad de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+{\em descripcion} & La descripcion de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+cuya {\itshape modalidad}  y {\itshape descripcion}  coincidan, si no se encuentra la actividad práctica devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_a3103fb9539e3041087ee7913e696543e}\label{class_data_1_1_datos_actividad_practica_a3103fb9539e3041087ee7913e696543e}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!BuscarModalidadActividad@{BuscarModalidadActividad}}
+\index{BuscarModalidadActividad@{BuscarModalidadActividad}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{BuscarModalidadActividad()}{BuscarModalidadActividad()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ Data.\+Datos\+Actividad\+Practica.\+Buscar\+Modalidad\+Actividad (\begin{DoxyParamCaption}\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+
+
+Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em modalidad} & La modalidad de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+cuya modalidad coincida con {\itshape modalidad} , si no se encuentra la actividad práctica devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_ab0436a9ca25a9e957282f8486e8ffdc1}\label{class_data_1_1_datos_actividad_practica_ab0436a9ca25a9e957282f8486e8ffdc1}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!ConsultarActvidadPractica@{ConsultarActvidadPractica}}
+\index{ConsultarActvidadPractica@{ConsultarActvidadPractica}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{ConsultarActvidadPractica()}{ConsultarActvidadPractica()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ Data.\+Datos\+Actividad\+Practica.\+Consultar\+Actvidad\+Practica (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Consulta todas las actividades prácticas registradas en la base de datos. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con todas las actividades prácticas registradas en el sistema.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_a724f6cd99300ce810bc8ddb00afe4871}\label{class_data_1_1_datos_actividad_practica_a724f6cd99300ce810bc8ddb00afe4871}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!EliminarActividad@{EliminarActividad}}
+\index{EliminarActividad@{EliminarActividad}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{EliminarActividad()}{EliminarActividad()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Actividad\+Practica.\+Eliminar\+Actividad (\begin{DoxyParamCaption}\item[{string}]{descripcion,  }\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+
+
+Eliina un registro de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+de la base de datos del sistema cuya {\itshape descripcion}  y {\itshape modalidad}  coincidan. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em descripcion} & Nombre de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+.\\
+\hline
+{\em modalidad} & Modalidad en que se realiza la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_add2ce6a129e2e97a42a0f15bfda32908}\label{class_data_1_1_datos_actividad_practica_add2ce6a129e2e97a42a0f15bfda32908}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!InsertarActividad@{InsertarActividad}}
+\index{InsertarActividad@{InsertarActividad}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{InsertarActividad()}{InsertarActividad()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Actividad\+Practica.\+Insertar\+Actividad (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}}}]{actividad }\end{DoxyParamCaption})}
+
+
+
+Inserta una nueva \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+({\itshape actividad} ) en la base de datos del sistema. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em actividad} & Nueva \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+a insertar en la base de datos.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_ac1bca0d9dd56cb3587cbaad862b25923}\label{class_data_1_1_datos_actividad_practica_ac1bca0d9dd56cb3587cbaad862b25923}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!LeerResultados@{LeerResultados}}
+\index{LeerResultados@{LeerResultados}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{LeerResultados()}{LeerResultados()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_practica}{Actividad\+Practica}} $>$ Data.\+Datos\+Actividad\+Practica.\+Leer\+Resultados (\begin{DoxyParamCaption}\item[{Sql\+Data\+Reader}]{datos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de actividades prácticas recuperadas de este. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em datos} & Es un Sql\+Data\+Reader que contiene los resultados de una consulta previa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Practica
+
+
+\end{DoxySeeAlso}
+correspondiente a todos los registros de {\itshape datos} .
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_actividad_practica_a2b9257de55644743b8e1de9b48d18c27}\label{class_data_1_1_datos_actividad_practica_a2b9257de55644743b8e1de9b48d18c27}} 
+\index{Data.DatosActividadPractica@{Data.DatosActividadPractica}!conexion@{conexion}}
+\index{conexion@{conexion}!Data.DatosActividadPractica@{Data.DatosActividadPractica}}
+\doxysubsubsection{\texorpdfstring{conexion}{conexion}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} Data.\+Datos\+Actividad\+Practica.\+conexion\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. 
+
+Es necesaria para establecer copmunicación entre la aplicación y el servidor de bases de datos.
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Data/Datos\+Actividad\+Practica.\+cs\end{DoxyCompactItemize}

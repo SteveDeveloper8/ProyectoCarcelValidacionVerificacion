@@ -1,0 +1,1 @@
+search_result['32']=["topic_000000000000000F.html","DatosCursoCurricular.InsertarEstudio Method","Inserta una nueva \u003cseealso cref=\"ActividadCurricular\" /\u003e(actividad) en la base de datos del sistema."];

@@ -1,0 +1,295 @@
+\hypertarget{class_data_1_1_datos_curso_curricular}{}\doxysection{Referencia de la Clase Data.\+Datos\+Curso\+Curricular}
+\label{class_data_1_1_datos_curso_curricular}\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+
+
+Esta clase permite el acceso a los datos de Actividad\+Curricular en la base de datos del sistema.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_ae46929cecd4a3474a300b187ea5af489}\label{class_data_1_1_datos_curso_curricular_ae46929cecd4a3474a300b187ea5af489}} 
+{\bfseries Datos\+Curso\+Curricular} ()
+\begin{DoxyCompactList}\small\item\em Inicializa la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_a4fbace03a7ed7c6dc79c5ad9842e2e70}{Insertar\+Estudio}} (\mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} actividad)
+\begin{DoxyCompactList}\small\item\em Inserta una nueva \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+({\itshape actividad} ) en la base de datos del sistema. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_ac724c91a74f508573dd7fbe9db0ef95a}{Eliminar\+Estudio}} (string descripcion, string modalidad)
+\begin{DoxyCompactList}\small\item\em Eliina un registro de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+de la base de datos del sistema cuya {\itshape descripcion}  y {\itshape modalidad}  coincidan. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_a6a8987843fb44cf55611479ecd0638b6}{Buscar\+Descripcion\+Estudio}} (string descripcion)
+\begin{DoxyCompactList}\small\item\em Consulta la base de datos y trae las actividades que coincidan con la {\itshape descripcion} . \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_aed46870c6484c23fb243b5556e0dced9}{Consultar\+Cursos\+Distancia}} ()
+\begin{DoxyCompactList}\small\item\em Consulta todas las actividades curriculares registradas en la base de datos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_a018261386bd5667fae6a1d5d553a5802}{Buscar\+Modalidad\+Estudio}} (string modalidad)
+\begin{DoxyCompactList}\small\item\em Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_a0631e424de5051fa469acb225ea496ff}{Buscar\+Descripcion\+Modalidad\+Estudio}} (string descripcion, string modalidad)
+\begin{DoxyCompactList}\small\item\em Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_aadbb46fa2cf4af30476c1bfd99fb71a0}{Leer\+Resultados}} (Sql\+Data\+Reader datos)
+\begin{DoxyCompactList}\small\item\em Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de actividades curriculares recuperadas de este. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} \mbox{\hyperlink{class_data_1_1_datos_curso_curricular_a9ec4a885c3ed2263f5d3df238b6206b4}{conexion}}
+\begin{DoxyCompactList}\small\item\em Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Esta clase permite el acceso a los datos de Actividad\+Curricular en la base de datos del sistema. 
+
+Esta clase ejecuta procedimientos almacenados en la base de datos.
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_a6a8987843fb44cf55611479ecd0638b6}\label{class_data_1_1_datos_curso_curricular_a6a8987843fb44cf55611479ecd0638b6}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!BuscarDescripcionEstudio@{BuscarDescripcionEstudio}}
+\index{BuscarDescripcionEstudio@{BuscarDescripcionEstudio}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{BuscarDescripcionEstudio()}{BuscarDescripcionEstudio()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ Data.\+Datos\+Curso\+Curricular.\+Buscar\+Descripcion\+Estudio (\begin{DoxyParamCaption}\item[{string}]{descripcion }\end{DoxyParamCaption})}
+
+
+
+Consulta la base de datos y trae las actividades que coincidan con la {\itshape descripcion} . 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em descripcion} & Es el nombre de la actividad curricular.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de obejetos con los datos de cada \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_a0631e424de5051fa469acb225ea496ff}\label{class_data_1_1_datos_curso_curricular_a0631e424de5051fa469acb225ea496ff}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!BuscarDescripcionModalidadEstudio@{BuscarDescripcionModalidadEstudio}}
+\index{BuscarDescripcionModalidadEstudio@{BuscarDescripcionModalidadEstudio}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{BuscarDescripcionModalidadEstudio()}{BuscarDescripcionModalidadEstudio()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ Data.\+Datos\+Curso\+Curricular.\+Buscar\+Descripcion\+Modalidad\+Estudio (\begin{DoxyParamCaption}\item[{string}]{descripcion,  }\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+
+
+Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em modalidad} & La modalidad de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+{\em descripcion} & La descripcion de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+cuya {\itshape modalidad}  y {\itshape descripcion}  coincidan, si no se encuentra la actividad curricular devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_a018261386bd5667fae6a1d5d553a5802}\label{class_data_1_1_datos_curso_curricular_a018261386bd5667fae6a1d5d553a5802}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!BuscarModalidadEstudio@{BuscarModalidadEstudio}}
+\index{BuscarModalidadEstudio@{BuscarModalidadEstudio}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{BuscarModalidadEstudio()}{BuscarModalidadEstudio()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ Data.\+Datos\+Curso\+Curricular.\+Buscar\+Modalidad\+Estudio (\begin{DoxyParamCaption}\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+
+
+Busca una \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+específica en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em modalidad} & La modalidad de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+buscada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+cuya modalidad coincida con {\itshape modalidad} , si no se encuentra la actividad curricular devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_aed46870c6484c23fb243b5556e0dced9}\label{class_data_1_1_datos_curso_curricular_aed46870c6484c23fb243b5556e0dced9}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!ConsultarCursosDistancia@{ConsultarCursosDistancia}}
+\index{ConsultarCursosDistancia@{ConsultarCursosDistancia}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{ConsultarCursosDistancia()}{ConsultarCursosDistancia()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ Data.\+Datos\+Curso\+Curricular.\+Consultar\+Cursos\+Distancia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Consulta todas las actividades curriculares registradas en la base de datos. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con todas las actividades curriculares registradas en el sistema.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_ac724c91a74f508573dd7fbe9db0ef95a}\label{class_data_1_1_datos_curso_curricular_ac724c91a74f508573dd7fbe9db0ef95a}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!EliminarEstudio@{EliminarEstudio}}
+\index{EliminarEstudio@{EliminarEstudio}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{EliminarEstudio()}{EliminarEstudio()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Curso\+Curricular.\+Eliminar\+Estudio (\begin{DoxyParamCaption}\item[{string}]{descripcion,  }\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+
+
+Eliina un registro de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+de la base de datos del sistema cuya {\itshape descripcion}  y {\itshape modalidad}  coincidan. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em descripcion} & Nombre de la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+.\\
+\hline
+{\em modalidad} & Modalidad en que se realiza la \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_a4fbace03a7ed7c6dc79c5ad9842e2e70}\label{class_data_1_1_datos_curso_curricular_a4fbace03a7ed7c6dc79c5ad9842e2e70}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!InsertarEstudio@{InsertarEstudio}}
+\index{InsertarEstudio@{InsertarEstudio}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{InsertarEstudio()}{InsertarEstudio()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Curso\+Curricular.\+Insertar\+Estudio (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}}}]{actividad }\end{DoxyParamCaption})}
+
+
+
+Inserta una nueva \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+({\itshape actividad} ) en la base de datos del sistema. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em actividad} & Nueva \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+a insertar en la base de datos.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_aadbb46fa2cf4af30476c1bfd99fb71a0}\label{class_data_1_1_datos_curso_curricular_aadbb46fa2cf4af30476c1bfd99fb71a0}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!LeerResultados@{LeerResultados}}
+\index{LeerResultados@{LeerResultados}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{LeerResultados()}{LeerResultados()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ Data.\+Datos\+Curso\+Curricular.\+Leer\+Resultados (\begin{DoxyParamCaption}\item[{Sql\+Data\+Reader}]{datos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de actividades curriculares recuperadas de este. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em datos} & Es un Sql\+Data\+Reader que contiene los resultados de una consulta previa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+correspondiente a todos los registros de {\itshape datos} .
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_curso_curricular_a9ec4a885c3ed2263f5d3df238b6206b4}\label{class_data_1_1_datos_curso_curricular_a9ec4a885c3ed2263f5d3df238b6206b4}} 
+\index{Data.DatosCursoCurricular@{Data.DatosCursoCurricular}!conexion@{conexion}}
+\index{conexion@{conexion}!Data.DatosCursoCurricular@{Data.DatosCursoCurricular}}
+\doxysubsubsection{\texorpdfstring{conexion}{conexion}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} Data.\+Datos\+Curso\+Curricular.\+conexion\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. 
+
+Es necesaria para establecer copmunicación entre la aplicación y el servidor de bases de datos.
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Data/Datos\+Curso\+Curricular.\+cs\end{DoxyCompactItemize}

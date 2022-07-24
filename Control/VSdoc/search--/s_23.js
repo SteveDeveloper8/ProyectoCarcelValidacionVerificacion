@@ -1,0 +1,1 @@
+search_result['23']=["topic_000000000000000B.html","ControladorUsuario.BuscarUsuario Method","Busca un Recluso cuyo nombre de usuario coincida con user."];

@@ -1,0 +1,1 @@
+c['40']=[['41',"GeneralExcepcion Constructor","topic_0000000000000025.html",0]];

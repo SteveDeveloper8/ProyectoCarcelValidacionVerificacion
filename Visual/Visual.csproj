@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36C66294-3F90-49B9-92A6-7B914A2D52F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Visual</RootNamespace>
+    <AssemblyName>Visual</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.3, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.3\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cursos\FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cursos\FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principales\EstudioRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principales\EstudioRegistro.Designer.cs">
+      <DependentUpon>EstudioRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos\FrmDistancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cursos\FrmDistancia.Designer.cs">
+      <DependentUpon>FrmDistancia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cursos\FrmTalleres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cursos\FrmTalleres.Designer.cs">
+      <DependentUpon>FrmTalleres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principales\PrincipalAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principales\PrincipalAdministrador.Designer.cs">
+      <DependentUpon>PrincipalAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recluso\FrmConsultarRecluso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recluso\FrmConsultarRecluso.Designer.cs">
+      <DependentUpon>FrmConsultarRecluso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recluso\FrmExpedienteRecluso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recluso\FrmExpedienteRecluso.Designer.cs">
+      <DependentUpon>FrmExpedienteRecluso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recluso\FrmIngresarRecluso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recluso\FrmIngresarRecluso.Designer.cs">
+      <DependentUpon>FrmIngresarRecluso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\FrmActualizarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario\FrmActualizarUsuario.Designer.cs">
+      <DependentUpon>FrmActualizarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\FrmConsultarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario\FrmConsultarUsuario.Designer.cs">
+      <DependentUpon>FrmConsultarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\FrmConsultaToActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario\FrmConsultaToActualizar.Designer.cs">
+      <DependentUpon>FrmConsultaToActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario\FrmRegistrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario\FrmRegistrarUsuario.Designer.cs">
+      <DependentUpon>FrmRegistrarUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Cursos\FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principales\EstudioRegistro.resx">
+      <DependentUpon>EstudioRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cursos\FrmDistancia.resx">
+      <DependentUpon>FrmDistancia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cursos\FrmTalleres.resx">
+      <DependentUpon>FrmTalleres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principales\PrincipalAdministrador.resx">
+      <DependentUpon>PrincipalAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Recluso\FrmConsultarRecluso.resx">
+      <DependentUpon>FrmConsultarRecluso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recluso\FrmExpedienteRecluso.resx">
+      <DependentUpon>FrmExpedienteRecluso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recluso\FrmIngresarRecluso.resx">
+      <DependentUpon>FrmIngresarRecluso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\FrmActualizarUsuario.resx">
+      <DependentUpon>FrmActualizarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\FrmConsultarUsuario.resx">
+      <DependentUpon>FrmConsultarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\FrmConsultaToActualizar.resx">
+      <DependentUpon>FrmConsultaToActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario\FrmRegistrarUsuario.resx">
+      <DependentUpon>FrmRegistrarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carcel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarioCarcel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Control\Control.csproj">
+      <Project>{f2e6a5e9-455d-4302-8b3c-98c6ab5dee86}</Project>
+      <Name>Control</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReclusoBG.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recluso.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sign_out_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReclusoBG1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReclusoBG2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inscripcion.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,299 @@
+\hypertarget{class_data_1_1_datos_recluso}{}\doxysection{Referencia de la Clase Data.\+Datos\+Recluso}
+\label{class_data_1_1_datos_recluso}\index{Data.DatosRecluso@{Data.DatosRecluso}}
+
+
+Esta clase permite el acceso a los datos de Recluso en la base de datos del sistema.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a3acb1f27e9e91aa00b14972a59287a1d}\label{class_data_1_1_datos_recluso_a3acb1f27e9e91aa00b14972a59287a1d}} 
+{\bfseries Datos\+Recluso} ()
+\begin{DoxyCompactList}\small\item\em Inicializa la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_1_1_expediente}{Expediente}} \mbox{\hyperlink{class_data_1_1_datos_recluso_a23d41bb431785171273c1972de9e55d8}{Buscar\+Expediente}} (string cedula)
+\begin{DoxyCompactList}\small\item\em Busca un \begin{DoxySeeAlso}{Ver también}
+Expediente
+
+
+\end{DoxySeeAlso}
+específico en la base de datos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_1_1_datos_recluso_a1df0eb965dc1ec83736096615d022a71}{Insertar\+Recluso}} (\mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} recluso)
+\begin{DoxyCompactList}\small\item\em Inserta un nuevo \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+({\itshape recluso} ) en la base de datos del sistema. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ \mbox{\hyperlink{class_data_1_1_datos_recluso_ac938644f01a33a30466c1e3e0070cc27}{Consultar\+Reclusos}} ()
+\begin{DoxyCompactList}\small\item\em Consulta todos los reclusos del sistema. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_cargo}{Cargo}} $>$ \mbox{\hyperlink{class_data_1_1_datos_recluso_a28e2dc61f6658cd23e1b92726dd414d0}{Consultar\+Cargos}} (string codigo\+Expediente)
+\begin{DoxyCompactList}\small\item\em Consulata todos los Cargos asociados a un Expediente cuyo código coincida con {\itshape codigo\+Expediente}  en la base de datos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} \mbox{\hyperlink{class_data_1_1_datos_recluso_aafd2d203333de4f6299d558c06a86b2c}{Buscar\+Recluso}} (string cedula)
+\begin{DoxyCompactList}\small\item\em Busca un \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+específico en el sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ \mbox{\hyperlink{class_data_1_1_datos_recluso_a54f28cc24298646d5c42cf28032cd7ca}{Consultar\+General}} ()
+\begin{DoxyCompactList}\small\item\em Consulta todos los reclusos registrados en la base de datos. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ \mbox{\hyperlink{class_data_1_1_datos_recluso_a36c217866b85ba3f2c1615111172bf6d}{Leer\+Resultados}} (Sql\+Data\+Reader datos)
+\begin{DoxyCompactList}\small\item\em Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de reclusos recuperados de este. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ \mbox{\hyperlink{class_data_1_1_datos_recluso_a2a9ec6440cd5af6a84f82ce1d1959b01}{Consultar\+Busqueda}} (string cedula)
+\begin{DoxyCompactList}\small\item\em Busca un \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+específico en la base de datos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} \mbox{\hyperlink{class_data_1_1_datos_recluso_acb89d108bb0caa155ed4db6cc5ec76bd}{conexion}}
+\begin{DoxyCompactList}\small\item\em Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Esta clase permite el acceso a los datos de Recluso en la base de datos del sistema. 
+
+Esta clase ejecuta procedimientos almacenados en la base de datos.
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a23d41bb431785171273c1972de9e55d8}\label{class_data_1_1_datos_recluso_a23d41bb431785171273c1972de9e55d8}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!BuscarExpediente@{BuscarExpediente}}
+\index{BuscarExpediente@{BuscarExpediente}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{BuscarExpediente()}{BuscarExpediente()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model_1_1_expediente}{Expediente}} Data.\+Datos\+Recluso.\+Buscar\+Expediente (\begin{DoxyParamCaption}\item[{string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+Busca un \begin{DoxySeeAlso}{Ver también}
+Expediente
+
+
+\end{DoxySeeAlso}
+específico en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cedula} & Es la cédula de \begin{DoxySeeAlso}{Ver también}
+Recluso, Expediente
+
+
+\end{DoxySeeAlso}
+cuyo  se va a consultar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Expediente
+
+
+\end{DoxySeeAlso}
+cuya cédula coincida con {\itshape cedula} , si no se encuentra al expediente devuelve null.
+\end{DoxyReturn}
+/// 
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_aafd2d203333de4f6299d558c06a86b2c}\label{class_data_1_1_datos_recluso_aafd2d203333de4f6299d558c06a86b2c}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!BuscarRecluso@{BuscarRecluso}}
+\index{BuscarRecluso@{BuscarRecluso}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{BuscarRecluso()}{BuscarRecluso()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} Data.\+Datos\+Recluso.\+Buscar\+Recluso (\begin{DoxyParamCaption}\item[{string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+Busca un \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+específico en el sistema. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cedula} & Es la cédula de \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+cuya cédula coincida con {\itshape cedula} , si no se encuentra al recluso devuelve null.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a2a9ec6440cd5af6a84f82ce1d1959b01}\label{class_data_1_1_datos_recluso_a2a9ec6440cd5af6a84f82ce1d1959b01}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!ConsultarBusqueda@{ConsultarBusqueda}}
+\index{ConsultarBusqueda@{ConsultarBusqueda}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{ConsultarBusqueda()}{ConsultarBusqueda()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ Data.\+Datos\+Recluso.\+Consultar\+Busqueda (\begin{DoxyParamCaption}\item[{string}]{cedula }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Busca un \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+específico en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cedula} & Es la cédula de \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+cuya cédula coincida con {\itshape cedula} , si no se encuentra al recluso devuelve null.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a28e2dc61f6658cd23e1b92726dd414d0}\label{class_data_1_1_datos_recluso_a28e2dc61f6658cd23e1b92726dd414d0}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!ConsultarCargos@{ConsultarCargos}}
+\index{ConsultarCargos@{ConsultarCargos}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{ConsultarCargos()}{ConsultarCargos()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_cargo}{Cargo}} $>$ Data.\+Datos\+Recluso.\+Consultar\+Cargos (\begin{DoxyParamCaption}\item[{string}]{codigo\+Expediente }\end{DoxyParamCaption})}
+
+
+
+Consulata todos los Cargos asociados a un Expediente cuyo código coincida con {\itshape codigo\+Expediente}  en la base de datos. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em codigo\+Expediente} & Es el código del Expediente a cuyos cargos queremos consultar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de Cargos correspondientes al expediente.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a54f28cc24298646d5c42cf28032cd7ca}\label{class_data_1_1_datos_recluso_a54f28cc24298646d5c42cf28032cd7ca}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!ConsultarGeneral@{ConsultarGeneral}}
+\index{ConsultarGeneral@{ConsultarGeneral}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{ConsultarGeneral()}{ConsultarGeneral()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ Data.\+Datos\+Recluso.\+Consultar\+General (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Consulta todos los reclusos registrados en la base de datos. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con todos los reclusos registrados en el sistema.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_ac938644f01a33a30466c1e3e0070cc27}\label{class_data_1_1_datos_recluso_ac938644f01a33a30466c1e3e0070cc27}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!ConsultarReclusos@{ConsultarReclusos}}
+\index{ConsultarReclusos@{ConsultarReclusos}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{ConsultarReclusos()}{ConsultarReclusos()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ Data.\+Datos\+Recluso.\+Consultar\+Reclusos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Consulta todos los reclusos del sistema. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con todos los reclusos registrados en el sistema.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a1df0eb965dc1ec83736096615d022a71}\label{class_data_1_1_datos_recluso_a1df0eb965dc1ec83736096615d022a71}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!InsertarRecluso@{InsertarRecluso}}
+\index{InsertarRecluso@{InsertarRecluso}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{InsertarRecluso()}{InsertarRecluso()}}
+{\footnotesize\ttfamily void Data.\+Datos\+Recluso.\+Insertar\+Recluso (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_recluso}{Recluso}}}]{recluso }\end{DoxyParamCaption})}
+
+
+
+Inserta un nuevo \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+({\itshape recluso} ) en la base de datos del sistema. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em user} & Nuevo \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+a insertar en la base de datos.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Consulta\+Fallida} & Cuando se da un error al consultar la base de datos.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_a36c217866b85ba3f2c1615111172bf6d}\label{class_data_1_1_datos_recluso_a36c217866b85ba3f2c1615111172bf6d}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!LeerResultados@{LeerResultados}}
+\index{LeerResultados@{LeerResultados}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{LeerResultados()}{LeerResultados()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ Data.\+Datos\+Recluso.\+Leer\+Resultados (\begin{DoxyParamCaption}\item[{Sql\+Data\+Reader}]{datos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lee un Sql\+Data\+Reader lleno con datos y devuelve una lista de reclusos recuperados de este. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em datos} & Es un Sql\+Data\+Reader que contiene los resultados de una consulta previa.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+correspondiente a todos los registros de {\itshape datos} .
+\end{DoxyReturn}
+
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_data_1_1_datos_recluso_acb89d108bb0caa155ed4db6cc5ec76bd}\label{class_data_1_1_datos_recluso_acb89d108bb0caa155ed4db6cc5ec76bd}} 
+\index{Data.DatosRecluso@{Data.DatosRecluso}!conexion@{conexion}}
+\index{conexion@{conexion}!Data.DatosRecluso@{Data.DatosRecluso}}
+\doxysubsubsection{\texorpdfstring{conexion}{conexion}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} Data.\+Datos\+Recluso.\+conexion\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Es la \mbox{\hyperlink{class_data_1_1_conexion}{Conexion}} con la base de datos del sistema. 
+
+Es necesaria para establecer copmunicación entre la aplicación y el servidor de bases de datos.
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Data/Datos\+Recluso.\+cs\end{DoxyCompactItemize}

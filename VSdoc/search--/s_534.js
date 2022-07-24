@@ -1,0 +1,1 @@
+search_result['534']=["topic_00000000000000CA.html","DatosLogin.InsertarUsuario Method","Inserta un nuevo \u003cseealso cref=\"Usuario\" /\u003e(user) en la base de datos del sistema."];

@@ -1,0 +1,1 @@
+search_result['58']=["topic_000000000000001F.html","DatosRecluso.InsertarRecluso Method","Inserta un nuevo \u003cseealso cref=\"Recluso\" /\u003e(recluso) en la base de datos del sistema."];

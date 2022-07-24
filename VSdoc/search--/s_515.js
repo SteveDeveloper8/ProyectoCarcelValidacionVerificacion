@@ -1,0 +1,1 @@
+search_result['515']=["topic_00000000000000C1.html","DatosCursoCurricular.ConsultarCursosDistancia Method","Consulta todas las actividades curriculares registradas en la base de datos."];

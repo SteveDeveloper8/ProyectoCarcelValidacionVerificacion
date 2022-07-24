@@ -1,0 +1,181 @@
+\hypertarget{class_control_1_1_control_cursos_curricular}{}\doxysection{Referencia de la Clase Control.\+Control\+Cursos\+Curricular}
+\label{class_control_1_1_control_cursos_curricular}\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+
+
+Controlador que gestiona la información de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ object $>$ \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_aa0a40ce80bd76417a88b093bdee40008}{Listar\+Cursos\+Distancia}} ()
+\item 
+Object \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_a0403000e3079c20b0bb136c082fe7070}{Guardar\+Estudio}} (int cupos, string descripcion, int remision, Date\+Time fecha\+Inicio, Date\+Time fecha\+Fin, string modalidad)
+\item 
+void \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_a77d5a09bf8ae8ed4cf573b377d072bec}{Eliminar\+Estudio}} (string Descripcion, string modalidad)
+\item 
+\mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a48a400fda8863c0236f393aba2a72055}\label{class_control_1_1_control_cursos_curricular_a48a400fda8863c0236f393aba2a72055}} 
+List$<$ Object $>$ {\bfseries Filtrar\+Desccripcion} (string descripcion)
+\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_aa3ce10a54c94bb7a9f39c08e77f958f0}{Filtrar\+Modalidad}} (string modalidad)
+\item 
+\mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a70f162c2bc86d1fdc3b060bdb08c6ac1}\label{class_control_1_1_control_cursos_curricular_a70f162c2bc86d1fdc3b060bdb08c6ac1}} 
+List$<$ Object $>$ {\bfseries Filtrar\+Descripcion\+Modalidad} (string descripcion, string modalidad)
+\end{DoxyCompactItemize}
+\doxysubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_a17db4e37a186f32332362a49fb97d3d5}{Get\+Lista\+Datos\+Cursos}} (List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$ actividades)
+\begin{DoxyCompactList}\small\item\em Convierte una lista de objetos \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular, Object
+
+
+\end{DoxySeeAlso}
+en una lista de objetos anónimos() que la capa de vista pueda entender. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_a1329af4f997391f01a5cb43ea08a650e}{Convertir\+Anonimo}} (\mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} curso)
+\begin{DoxyCompactList}\small\item\em Convierte un objeto \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a9afb8500b386628a0a0c0f9cf962444b}\label{class_control_1_1_control_cursos_curricular_a9afb8500b386628a0a0c0f9cf962444b}} 
+\mbox{\hyperlink{class_data_1_1_datos_curso_curricular}{Datos\+Curso\+Curricular}} {\bfseries datos\+Curso} = new \mbox{\hyperlink{class_data_1_1_datos_curso_curricular}{Datos\+Curso\+Curricular}}()
+\begin{DoxyCompactList}\small\item\em Atributo tipo Datos\+Curso\+Curricular que permite el acceso a la capa de Datos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} \mbox{\hyperlink{class_control_1_1_control_cursos_curricular_a2079d6bfe5295650905e9e53670b24d4}{curricular}} =null
+\begin{DoxyCompactList}\small\item\em Instancia de Actividad\+Curricular sirve como auxiliar para los métodos de control. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Controlador que gestiona la información de \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular
+
+
+\end{DoxySeeAlso}
+. 
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a1329af4f997391f01a5cb43ea08a650e}\label{class_control_1_1_control_cursos_curricular_a1329af4f997391f01a5cb43ea08a650e}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!ConvertirAnonimo@{ConvertirAnonimo}}
+\index{ConvertirAnonimo@{ConvertirAnonimo}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{ConvertirAnonimo()}{ConvertirAnonimo()}}
+{\footnotesize\ttfamily Object Control.\+Control\+Cursos\+Curricular.\+Convertir\+Anonimo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}}}]{curso }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte un objeto \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em curso} & Curso a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Object
+
+
+\end{DoxySeeAlso}
+con los datos del {\itshape curso} .
+\end{DoxyReturn}
+summary\texorpdfstring{$>$}{>} Metodo que se encarga de buscar cursos a partir de su modalidad. /summary\texorpdfstring{$>$}{>} param name= \char`\"{}modalidad\char`\"{}\texorpdfstring{$>$}{>} Modalidad del curso. 
+
+return\texorpdfstring{$>$}{>}Retorna una lista de cursos. $<$/return$>$ \mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a77d5a09bf8ae8ed4cf573b377d072bec}\label{class_control_1_1_control_cursos_curricular_a77d5a09bf8ae8ed4cf573b377d072bec}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!EliminarEstudio@{EliminarEstudio}}
+\index{EliminarEstudio@{EliminarEstudio}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{EliminarEstudio()}{EliminarEstudio()}}
+{\footnotesize\ttfamily void Control.\+Control\+Cursos\+Curricular.\+Eliminar\+Estudio (\begin{DoxyParamCaption}\item[{string}]{Descripcion,  }\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+summary\texorpdfstring{$>$}{>} Metodo que se encarga de buscar cursos a partir de una descripcion. /summary\texorpdfstring{$>$}{>} param name= \char`\"{}descripcion\char`\"{}\texorpdfstring{$>$}{>} Descripcion del curso 
+
+return\texorpdfstring{$>$}{>}Retorna una lista de cursos $<$/return$>$ \mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_aa3ce10a54c94bb7a9f39c08e77f958f0}\label{class_control_1_1_control_cursos_curricular_aa3ce10a54c94bb7a9f39c08e77f958f0}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!FiltrarModalidad@{FiltrarModalidad}}
+\index{FiltrarModalidad@{FiltrarModalidad}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{FiltrarModalidad()}{FiltrarModalidad()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Control\+Cursos\+Curricular.\+Filtrar\+Modalidad (\begin{DoxyParamCaption}\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+summary\texorpdfstring{$>$}{>} Metodo que se encarga de buscar cursos a partir de su descripcion y modalidad. /summary\texorpdfstring{$>$}{>} param name= \char`\"{}descripcion\char`\"{}\texorpdfstring{$>$}{>} Descripcion del curso. 
+
+param name= \char`\"{}modalidad\char`\"{}\texorpdfstring{$>$}{>} Modalidad del curso. 
+
+return\texorpdfstring{$>$}{>}Retorna una lista de cursos. $<$/return$>$ \mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a17db4e37a186f32332362a49fb97d3d5}\label{class_control_1_1_control_cursos_curricular_a17db4e37a186f32332362a49fb97d3d5}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!GetListaDatosCursos@{GetListaDatosCursos}}
+\index{GetListaDatosCursos@{GetListaDatosCursos}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{GetListaDatosCursos()}{GetListaDatosCursos()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Control\+Cursos\+Curricular.\+Get\+Lista\+Datos\+Cursos (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} $>$}]{actividades }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte una lista de objetos \begin{DoxySeeAlso}{Ver también}
+Actividad\+Curricular, Object
+
+
+\end{DoxySeeAlso}
+en una lista de objetos anónimos() que la capa de vista pueda entender. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em actividades} & Lista de actividades a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de objetos anónimos(\begin{DoxySeeAlso}{Ver también}
+Object
+
+
+\end{DoxySeeAlso}
+).
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a0403000e3079c20b0bb136c082fe7070}\label{class_control_1_1_control_cursos_curricular_a0403000e3079c20b0bb136c082fe7070}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!GuardarEstudio@{GuardarEstudio}}
+\index{GuardarEstudio@{GuardarEstudio}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{GuardarEstudio()}{GuardarEstudio()}}
+{\footnotesize\ttfamily Object Control.\+Control\+Cursos\+Curricular.\+Guardar\+Estudio (\begin{DoxyParamCaption}\item[{int}]{cupos,  }\item[{string}]{descripcion,  }\item[{int}]{remision,  }\item[{Date\+Time}]{fecha\+Inicio,  }\item[{Date\+Time}]{fecha\+Fin,  }\item[{string}]{modalidad }\end{DoxyParamCaption})}
+
+summary\texorpdfstring{$>$}{>} Metodo que se encarga de eliminar un curso especifico /summary\texorpdfstring{$>$}{>} param name= \char`\"{}estudio\+Delete\char`\"{}\texorpdfstring{$>$}{>} Nombre del curso \mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_aa0a40ce80bd76417a88b093bdee40008}\label{class_control_1_1_control_cursos_curricular_aa0a40ce80bd76417a88b093bdee40008}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!ListarCursosDistancia@{ListarCursosDistancia}}
+\index{ListarCursosDistancia@{ListarCursosDistancia}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{ListarCursosDistancia()}{ListarCursosDistancia()}}
+{\footnotesize\ttfamily List$<$ object $>$ Control.\+Control\+Cursos\+Curricular.\+Listar\+Cursos\+Distancia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary\texorpdfstring{$>$}{>} Metodo que se encarga de guardar el curso. /summary\texorpdfstring{$>$}{>} param name= \char`\"{}cupos\char`\"{}\texorpdfstring{$>$}{>} Numero de cupos 
+
+param name= \char`\"{}descripcion\char`\"{}\texorpdfstring{$>$}{>} descripcion del curso 
+
+param name= \char`\"{}remision\char`\"{}\texorpdfstring{$>$}{>} Numero de dias de remision de condena 
+
+param name= \char`\"{}fecha\+Inicio\char`\"{}\texorpdfstring{$>$}{>} Fecha de inicio del curso 
+
+param name= \char`\"{}fecha\+Fin\char`\"{}\texorpdfstring{$>$}{>} Fecha de fin del curso
+
+return\texorpdfstring{$>$}{>}Retorna una actividad Curricular $<$/return$>$ 
+
+\doxysubsection{Documentación de los datos miembro}
+\mbox{\Hypertarget{class_control_1_1_control_cursos_curricular_a2079d6bfe5295650905e9e53670b24d4}\label{class_control_1_1_control_cursos_curricular_a2079d6bfe5295650905e9e53670b24d4}} 
+\index{Control.ControlCursosCurricular@{Control.ControlCursosCurricular}!curricular@{curricular}}
+\index{curricular@{curricular}!Control.ControlCursosCurricular@{Control.ControlCursosCurricular}}
+\doxysubsubsection{\texorpdfstring{curricular}{curricular}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model_1_1_actividad_curricular}{Actividad\+Curricular}} Control.\+Control\+Cursos\+Curricular.\+curricular =null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Instancia de Actividad\+Curricular sirve como auxiliar para los métodos de control. 
+
+summary\texorpdfstring{$>$}{>} Metodo que se encarga de consultar cursos existentes. /summary\texorpdfstring{$>$}{>} return\texorpdfstring{$>$}{>}Retorna una lista de cursos $<$/return$>$ 
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Control/Control\+Cursos\+Curricular.\+cs\end{DoxyCompactItemize}

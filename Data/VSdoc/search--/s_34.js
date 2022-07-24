@@ -1,0 +1,1 @@
+search_result['34']=["topic_0000000000000011.html","DatosCursoCurricular.BuscarDescripcionEstudio Method","Consulta la base de datos y trae las actividades que coincidan con la descripcion."];

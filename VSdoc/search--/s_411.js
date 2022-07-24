@@ -1,0 +1,1 @@
+search_result['411']=["topic_000000000000009A.html","ControlCursosCurricular Class","Controlador que gestiona la información de \u003cseealso cref=\"ActividadCurricular\" /\u003e."];

@@ -1,0 +1,1 @@
+search_result['50']=["topic_000000000000001C.html","ControlRecluso.ListarReclusos Method","Lista a todos los datos de reclusos del sistema."];

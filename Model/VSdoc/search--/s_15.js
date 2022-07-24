@@ -1,0 +1,1 @@
+search_result['15']=["topic_0000000000000007.html","Actividad(Int32, String, String) Constructor","Constructor de la clase Actividad que inicializa una nueva actividad a (cupos, descripcion, modalidad)."];

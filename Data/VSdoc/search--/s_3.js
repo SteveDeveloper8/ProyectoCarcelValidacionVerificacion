@@ -1,0 +1,1 @@
+search_result['3']=["topic_0000000000000001.html","Conexion Class","Es la clase que se encarga de establecer una conexión entre la aplicación y la base de datos."];

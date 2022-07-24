@@ -1,0 +1,1 @@
+search_result['496']=["topic_00000000000000B8.html","DatosActividadPractica.ConsultarActvidadPractica Method","Consulta todas las actividades prácticas registradas en la base de datos."];

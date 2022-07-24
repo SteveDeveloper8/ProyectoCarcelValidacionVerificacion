@@ -1,0 +1,1 @@
+search_result['156']=["topic_000000000000003F.html","ActividadPractica(Int32, Int32, String, String, Int32) Constructor","Constructor de la clase ActividadPractica que inicializa una nueva actividad practica a(cupos,descripcion,modalidad,remisionDiaria)."];

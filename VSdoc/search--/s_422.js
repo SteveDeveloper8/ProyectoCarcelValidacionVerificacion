@@ -1,0 +1,1 @@
+search_result['422']=["topic_00000000000000A0.html","ControlCursosCurricular.FiltrarDescripcionModalidad Method","Metodo que se encarga de buscar cursos a partir de su descripcion y modalidad."];

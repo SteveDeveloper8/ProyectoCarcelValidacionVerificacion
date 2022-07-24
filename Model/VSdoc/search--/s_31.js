@@ -1,0 +1,1 @@
+search_result['31']=["topic_000000000000000D.html","ActividadCurricular.FechaInicio Property","Obtiene o establece la fecha de inicio de la actividad curricular."];

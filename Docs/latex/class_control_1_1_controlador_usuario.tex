@@ -1,0 +1,272 @@
+\hypertarget{class_control_1_1_controlador_usuario}{}\doxysection{Referencia de la Clase Control.\+Controlador\+Usuario}
+\label{class_control_1_1_controlador_usuario}\index{Control.ControladorUsuario@{Control.ControladorUsuario}}
+
+
+Controlador que gestiona la información de \mbox{\hyperlink{}{. }}  
+
+
+\doxysubsection*{MÃ©todos pÃºblicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_control_1_1_controlador_usuario_a5a913be53fd77078ce2a22e0971f5c2b}{validar\+Login}} (string usuario, string contrasena)
+\begin{DoxyCompactList}\small\item\em Valida que el nombre de usuario({\itshape usuario} ) y la {\itshape contrasena}  coincidan con un \mbox{\hyperlink{}{registrado. }} \end{DoxyCompactList}\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_controlador_usuario_a7c31c77e9cdc8d5e0227c4239feea093}{Listar\+Usuarios}} ()
+\begin{DoxyCompactList}\small\item\em Lista a todos los datos de usuarios del sistema. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_controlador_usuario_a2e7aed860de9f4c6ade212104dbc7916}{Buscar\+Usuario}} (string \mbox{\hyperlink{class_control_1_1_controlador_usuario_aa26987334479d2a598f410799a5f1da9}{user}})
+\begin{DoxyCompactList}\small\item\em Busca un Recluso cuyo nombre de usuario coincida con {\itshape user} . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_control_1_1_controlador_usuario_ab63675db4d9af88cf9e33f0e95f602a5}{Actualizar\+Usuario}} (string nombre, string apellido, string usuario, string contrasena, string rol)
+\begin{DoxyCompactList}\small\item\em Actualiza los datos de un Usuario en específico. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_control_1_1_controlador_usuario_acd6e8fcfefb487d205e872da0405c7d4}{Retorna\+Rol}} (string usuario)
+\begin{DoxyCompactList}\small\item\em Busca un el rol de un usuario específico que coincida con el {\itshape usuario}  ingresado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_control_1_1_controlador_usuario_af61a6dfc9809eff05592b3babbcee85d}{usuario\+Repetido}} (string usuario)
+\begin{DoxyCompactList}\small\item\em Valida que no exista un usuario con el mismo nombre de usuario({\itshape usuario} ) registrado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_control_1_1_controlador_usuario_aff141967dc997b4b19937f61141561c8}{Guardar\+Usuario}} (string nombre, string apellido, string usuario, string contrasena, string rol)
+\begin{DoxyCompactList}\small\item\em Guarda los datos de un nuevo Usuario. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_model_1_1_rol}{Rol}} \mbox{\hyperlink{class_control_1_1_controlador_usuario_aaed22b172e6cf3f1965979d202853db3}{Obtener\+Rol}} (string rol)
+\begin{DoxyCompactList}\small\item\em Busca un rol cuya descripción coincida con {\itshape rol} . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{MÃ©todos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_controlador_usuario_a8e131dcb82c7baf86343d79e4a589eab}{Get\+Lista\+Datos\+Usuarios}} (List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$ usuarios)
+\begin{DoxyCompactList}\small\item\em Convierte una lista de \texorpdfstring{$<$}{<}seealso cref=Usuario\char`\"{}/$>$s en una lista de objetos anónimos($<$seealso cref=\char`\"{}Object"{}/\texorpdfstring{$>$}{>}) que la capa de vista pueda entender. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_controlador_usuario_a389c97ec1ab9e07aee2a7b69c9dc77c6}{Convertir\+Anonimo}} (\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} usuario)
+\begin{DoxyCompactList}\small\item\em Convierte un objeto \begin{DoxySeeAlso}{Ver tambiÃ©n}
+Usuario, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a1ca0cbfab49f1ea577409c3474b8b159}\label{class_control_1_1_controlador_usuario_a1ca0cbfab49f1ea577409c3474b8b159}} 
+\mbox{\hyperlink{class_data_1_1_datos_login}{Datos\+Login}} {\bfseries datos\+Login} = new \mbox{\hyperlink{class_data_1_1_datos_login}{Datos\+Login}}()
+\begin{DoxyCompactList}\small\item\em Atributo tipo Datos\+Login que permite el acceso a la capa de Datos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_aa26987334479d2a598f410799a5f1da9}\label{class_control_1_1_controlador_usuario_aa26987334479d2a598f410799a5f1da9}} 
+\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} {\bfseries user} = null
+\begin{DoxyCompactList}\small\item\em Instancia de Usuario sirve como auxiliar para los métodos de control. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a80a1d8cc93b9872842e280d78c2b06b7}\label{class_control_1_1_controlador_usuario_a80a1d8cc93b9872842e280d78c2b06b7}} 
+\mbox{\hyperlink{class_model_1_1_rol}{Rol}} {\bfseries role} = null
+\begin{DoxyCompactList}\small\item\em Instancia de Rol sirve como auxiliar para los métodos de control. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{DescripciÃ³n detallada}
+Controlador que gestiona la información de \mbox{\hyperlink{}{. }} 
+
+\doxysubsection{DocumentaciÃ³n de las funciones miembro}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_ab63675db4d9af88cf9e33f0e95f602a5}\label{class_control_1_1_controlador_usuario_ab63675db4d9af88cf9e33f0e95f602a5}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!ActualizarUsuario@{ActualizarUsuario}}
+\index{ActualizarUsuario@{ActualizarUsuario}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{ActualizarUsuario()}{ActualizarUsuario()}}
+{\footnotesize\ttfamily void Control.\+Controlador\+Usuario.\+Actualizar\+Usuario (\begin{DoxyParamCaption}\item[{string}]{nombre,  }\item[{string}]{apellido,  }\item[{string}]{usuario,  }\item[{string}]{contrasena,  }\item[{string}]{rol }\end{DoxyParamCaption})}
+
+
+
+Actualiza los datos de un Usuario en específico. 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em nombre} & Nuevo nombre del Usuario.\\
+\hline
+{\em apellido} & Nuevo apellido del Usuario.\\
+\hline
+{\em usuario} & Nombre de usuario para identificar el Usuario a actualizar.\\
+\hline
+{\em contrasena} & Nueva contraseña del Usuario.\\
+\hline
+{\em rol} & Nuevo Rol del Usuario.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a2e7aed860de9f4c6ade212104dbc7916}\label{class_control_1_1_controlador_usuario_a2e7aed860de9f4c6ade212104dbc7916}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!BuscarUsuario@{BuscarUsuario}}
+\index{BuscarUsuario@{BuscarUsuario}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{BuscarUsuario()}{BuscarUsuario()}}
+{\footnotesize\ttfamily Object Control.\+Controlador\+Usuario.\+Buscar\+Usuario (\begin{DoxyParamCaption}\item[{string}]{user }\end{DoxyParamCaption})}
+
+
+
+Busca un Recluso cuyo nombre de usuario coincida con {\itshape user} . 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em user} & Nombre de usuario del Usuario a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un Object con los datos del Usuario.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a389c97ec1ab9e07aee2a7b69c9dc77c6}\label{class_control_1_1_controlador_usuario_a389c97ec1ab9e07aee2a7b69c9dc77c6}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!ConvertirAnonimo@{ConvertirAnonimo}}
+\index{ConvertirAnonimo@{ConvertirAnonimo}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{ConvertirAnonimo()}{ConvertirAnonimo()}}
+{\footnotesize\ttfamily Object Control.\+Controlador\+Usuario.\+Convertir\+Anonimo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_usuario}{Usuario}}}]{usuario }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte un objeto \begin{DoxySeeAlso}{Ver tambiÃ©n}
+Usuario, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em usuario} & Usuario a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver tambiÃ©n}
+Object
+
+
+\end{DoxySeeAlso}
+con los datos del {\itshape usuario} .
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a8e131dcb82c7baf86343d79e4a589eab}\label{class_control_1_1_controlador_usuario_a8e131dcb82c7baf86343d79e4a589eab}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!GetListaDatosUsuarios@{GetListaDatosUsuarios}}
+\index{GetListaDatosUsuarios@{GetListaDatosUsuarios}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{GetListaDatosUsuarios()}{GetListaDatosUsuarios()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Controlador\+Usuario.\+Get\+Lista\+Datos\+Usuarios (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_model_1_1_usuario}{Usuario}} $>$}]{usuarios }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte una lista de \texorpdfstring{$<$}{<}seealso cref=Usuario\char`\"{}/$>$s en una lista de objetos anónimos($<$seealso cref=\char`\"{}Object"{}/\texorpdfstring{$>$}{>}) que la capa de vista pueda entender. 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em usuarios} & Lista de usuarios a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de objetos anónimos(\begin{DoxySeeAlso}{Ver tambiÃ©n}
+Object
+
+
+\end{DoxySeeAlso}
+).
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_aff141967dc997b4b19937f61141561c8}\label{class_control_1_1_controlador_usuario_aff141967dc997b4b19937f61141561c8}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!GuardarUsuario@{GuardarUsuario}}
+\index{GuardarUsuario@{GuardarUsuario}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{GuardarUsuario()}{GuardarUsuario()}}
+{\footnotesize\ttfamily void Control.\+Controlador\+Usuario.\+Guardar\+Usuario (\begin{DoxyParamCaption}\item[{string}]{nombre,  }\item[{string}]{apellido,  }\item[{string}]{usuario,  }\item[{string}]{contrasena,  }\item[{string}]{rol }\end{DoxyParamCaption})}
+
+
+
+Guarda los datos de un nuevo Usuario. 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em nombre} & Nombre del nuevo Usuario.\\
+\hline
+{\em apellido} & Apellido del nuevo Usuario.\\
+\hline
+{\em usuario} & Nombre de suario del nuevo Usuario.\\
+\hline
+{\em contrasena} & Contraseña del nuevo Usuario.\\
+\hline
+{\em rol} & Rol del nuevo Usuario.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a7c31c77e9cdc8d5e0227c4239feea093}\label{class_control_1_1_controlador_usuario_a7c31c77e9cdc8d5e0227c4239feea093}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!ListarUsuarios@{ListarUsuarios}}
+\index{ListarUsuarios@{ListarUsuarios}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{ListarUsuarios()}{ListarUsuarios()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Controlador\+Usuario.\+Listar\+Usuarios (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Lista a todos los datos de usuarios del sistema. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con la información de cada Usuario registrado en el sistema.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em \mbox{\hyperlink{class_control_1_1_general_excepcion}{General\+Excepcion}}} & Cuando no se encontró ningún Usuario registrado en el sistema.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_aaed22b172e6cf3f1965979d202853db3}\label{class_control_1_1_controlador_usuario_aaed22b172e6cf3f1965979d202853db3}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!ObtenerRol@{ObtenerRol}}
+\index{ObtenerRol@{ObtenerRol}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{ObtenerRol()}{ObtenerRol()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_model_1_1_rol}{Rol}} Control.\+Controlador\+Usuario.\+Obtener\+Rol (\begin{DoxyParamCaption}\item[{string}]{rol }\end{DoxyParamCaption})}
+
+
+
+Busca un rol cuya descripción coincida con {\itshape rol} . 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em rol} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un Rol.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_acd6e8fcfefb487d205e872da0405c7d4}\label{class_control_1_1_controlador_usuario_acd6e8fcfefb487d205e872da0405c7d4}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!RetornaRol@{RetornaRol}}
+\index{RetornaRol@{RetornaRol}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{RetornaRol()}{RetornaRol()}}
+{\footnotesize\ttfamily string Control.\+Controlador\+Usuario.\+Retorna\+Rol (\begin{DoxyParamCaption}\item[{string}]{usuario }\end{DoxyParamCaption})}
+
+
+
+Busca un el rol de un usuario específico que coincida con el {\itshape usuario}  ingresado. 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em usuario} & Nombre de usuario del Usuario a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+El Rol del Usuario específico.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_af61a6dfc9809eff05592b3babbcee85d}\label{class_control_1_1_controlador_usuario_af61a6dfc9809eff05592b3babbcee85d}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!usuarioRepetido@{usuarioRepetido}}
+\index{usuarioRepetido@{usuarioRepetido}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{usuarioRepetido()}{usuarioRepetido()}}
+{\footnotesize\ttfamily void Control.\+Controlador\+Usuario.\+usuario\+Repetido (\begin{DoxyParamCaption}\item[{string}]{usuario }\end{DoxyParamCaption})}
+
+
+
+Valida que no exista un usuario con el mismo nombre de usuario({\itshape usuario} ) registrado. 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em usuario} & Nombre de usuario del nuevo Usuario a insertar.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Exception} & Cuando un Usuario con el mismo nombre de usuario ya se encuentra registrado.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_control_1_1_controlador_usuario_a5a913be53fd77078ce2a22e0971f5c2b}\label{class_control_1_1_controlador_usuario_a5a913be53fd77078ce2a22e0971f5c2b}} 
+\index{Control.ControladorUsuario@{Control.ControladorUsuario}!validarLogin@{validarLogin}}
+\index{validarLogin@{validarLogin}!Control.ControladorUsuario@{Control.ControladorUsuario}}
+\doxysubsubsection{\texorpdfstring{validarLogin()}{validarLogin()}}
+{\footnotesize\ttfamily void Control.\+Controlador\+Usuario.\+validar\+Login (\begin{DoxyParamCaption}\item[{string}]{usuario,  }\item[{string}]{contrasena }\end{DoxyParamCaption})}
+
+
+
+Valida que el nombre de usuario({\itshape usuario} ) y la {\itshape contrasena}  coincidan con un \mbox{\hyperlink{}{registrado. }} 
+
+
+\begin{DoxyParams}{ParÃ¡metros}
+{\em usuario} & Nombre de usuario ingresado.\\
+\hline
+{\em contrasena} & Contraseña ingresada.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em \mbox{\hyperlink{class_control_1_1_general_excepcion}{General\+Excepcion}}} & Cuando el {\itshape usuario}  y la {\itshape contrasena}  son incorrectos, o cuando solo la {\itshape contrasena}  lo es.\\
+\hline
+\end{DoxyExceptions}
+
+
+La documentaciÃ³n para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Control/Controlador\+Usuario.\+cs\end{DoxyCompactItemize}

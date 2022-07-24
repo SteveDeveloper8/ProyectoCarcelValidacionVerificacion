@@ -1,0 +1,1 @@
+search_result['174']=["topic_0000000000000047_overloads--.html","Cargo Constructor","Constructor de la clase Cargo que inicializa un nuevo cargo a (descripcion, delito, id, lugarHechos, fechaHechos)."];

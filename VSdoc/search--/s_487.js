@@ -1,0 +1,1 @@
+search_result['487']=["topic_00000000000000B4.html","DatosActividadPractica Class","Esta clase permite el acceso a los datos de ActividadPractica en la base de datos del sistema."];

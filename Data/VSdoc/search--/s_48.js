@@ -1,0 +1,1 @@
+search_result['48']=["topic_000000000000001A.html","DatosLogin.ConsultarRol Method","Busca un \u003cseealso cref=\"Rol\" /\u003e cuya descripción coincida con rol en la base de datos."];

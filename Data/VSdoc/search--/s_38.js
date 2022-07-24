@@ -1,0 +1,1 @@
+search_result['38']=["topic_0000000000000015.html","DatosLogin Class","Esta clase permite el acceso a los datos de Usuario en la base de datos del sistema."];

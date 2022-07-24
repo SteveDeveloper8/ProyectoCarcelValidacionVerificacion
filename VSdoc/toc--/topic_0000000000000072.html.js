@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"SOLUTION-WIDE PROPERTIES Reference","topic_00000000000000EB.html"],['97',"Model Namespace","topic_000000000000002C.html"],['174',"Persona Class","topic_0000000000000069.html"],['175',"Persona Constructor","topic_0000000000000070_overloads--.html"],['176',"Persona() Constructor","topic_0000000000000072.html"]];

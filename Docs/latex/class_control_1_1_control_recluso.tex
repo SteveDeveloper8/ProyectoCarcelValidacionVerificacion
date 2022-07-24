@@ -1,0 +1,347 @@
+\hypertarget{class_control_1_1_control_recluso}{}\doxysection{Referencia de la Clase Control.\+Control\+Recluso}
+\label{class_control_1_1_control_recluso}\index{Control.ControlRecluso@{Control.ControlRecluso}}
+
+
+Controlador que gestiona la información de \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_control_1_1_control_recluso_aba05b8309670455796238090278ce5fb}{existe\+Codigo}} (string codigo)
+\begin{DoxyCompactList}\small\item\em Valida que no exista un \mbox{\hyperlink{}{con el mismo }} registrado. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_control_recluso_a6d67c202ddec9cb72aa1fe320c12d879}{buscar\+Expediente}} (string cedula)
+\begin{DoxyCompactList}\small\item\em Busca busca el expediente del recluso cuya cpedula coincida con {\itshape cedula} . \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_control_1_1_control_recluso_a2f29cab695b3fa6b99e050e9fb15541e}{Guardar\+Recluso}} (string codigo, string nombre, string apellido, string genero, Date\+Time fecha, int id\+Expediente, string cedula)
+\begin{DoxyCompactList}\small\item\em Guarda los datos de un nuevo Recluso. \end{DoxyCompactList}\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_control_recluso_a2a82449328244135e190070b7030d471}{Listar\+Reclusos}} ()
+\begin{DoxyCompactList}\small\item\em Lista a todos los datos de reclusos del sistema. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_control_recluso_a20377bde478747ad77629b19451eb8a2}{Buscar\+Recluso}} (string cedula)
+\begin{DoxyCompactList}\small\item\em Busca un Recluso cuya cédula coincida con {\itshape cedula} . \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_control_1_1_control_recluso_a97b8e8c930ed00fcc7aa6a5292b4398b}{Validar\+Recluso}} (string cedula)
+\begin{DoxyCompactList}\small\item\em Valida que no exista un Recluso con la misma {\itshape cedula} . \end{DoxyCompactList}\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_control_recluso_a62f9cb03272579733e2640738320d5ed}{Listar\+Cargos}} (string codigo\+Expediente)
+\begin{DoxyCompactList}\small\item\em Lista los Cargos de un Expediente cuyo código coincida con {\itshape codigo\+Expediente} . \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_control_recluso_ab37aa8d78937a0de20608347413ff164}{Get\+Lista\+Datos\+Cargos}} (List$<$ \mbox{\hyperlink{class_model_1_1_cargo}{Cargo}} $>$ cargos)
+\begin{DoxyCompactList}\small\item\em Convierte una lista de \begin{DoxySeeAlso}{Ver también}
+Cargo, Object
+
+
+\end{DoxySeeAlso}
+s en una lista de objetos anónimos() que la capa de vista pueda entender. \end{DoxyCompactList}\item 
+List$<$ Object $>$ \mbox{\hyperlink{class_control_1_1_control_recluso_a296852d53e6a164f83127b1327d70d6e}{Get\+Lista\+Datos\+Reclusos}} (List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$ reclusos)
+\begin{DoxyCompactList}\small\item\em Convierte una lista de \begin{DoxySeeAlso}{Ver también}
+Recluso, Object
+
+
+\end{DoxySeeAlso}
+s en una lista de objetos anónimos() que la capa de vista pueda entender. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_control_recluso_a875112d3b1702011c3841c6e4e7e590f}{Convertir\+Anonimo}} (\mbox{\hyperlink{class_model_1_1_cargo}{Cargo}} cargo)
+\begin{DoxyCompactList}\small\item\em Convierte un objeto \begin{DoxySeeAlso}{Ver también}
+Cargo, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. \end{DoxyCompactList}\item 
+Object \mbox{\hyperlink{class_control_1_1_control_recluso_a38b68b47773cc1e4e590a53b07e0bf45}{Convertir\+Anonimo}} (\mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} \mbox{\hyperlink{class_control_1_1_control_recluso_a465b93a906a0b313db3cdd3b0fd70c2c}{recluso}})
+\begin{DoxyCompactList}\small\item\em Convierte un objeto \begin{DoxySeeAlso}{Ver también}
+Recluso, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_control_1_1_control_recluso_acb6c208928236f88e6703ff8357acdd9}\label{class_control_1_1_control_recluso_acb6c208928236f88e6703ff8357acdd9}} 
+\mbox{\hyperlink{class_data_1_1_datos_recluso}{Datos\+Recluso}} {\bfseries datos\+Recluso} = new \mbox{\hyperlink{class_data_1_1_datos_recluso}{Datos\+Recluso}}()
+\begin{DoxyCompactList}\small\item\em Atributo tipo Datos\+Recluso que permite el acceso a la capa de Datos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a465b93a906a0b313db3cdd3b0fd70c2c}\label{class_control_1_1_control_recluso_a465b93a906a0b313db3cdd3b0fd70c2c}} 
+\mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} {\bfseries recluso} = null
+\begin{DoxyCompactList}\small\item\em Instancia de Recluso sirve como auxiliar para los métodos de control. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Controlador que gestiona la información de \begin{DoxySeeAlso}{Ver también}
+Recluso
+
+
+\end{DoxySeeAlso}
+. 
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a6d67c202ddec9cb72aa1fe320c12d879}\label{class_control_1_1_control_recluso_a6d67c202ddec9cb72aa1fe320c12d879}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!buscarExpediente@{buscarExpediente}}
+\index{buscarExpediente@{buscarExpediente}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{buscarExpediente()}{buscarExpediente()}}
+{\footnotesize\ttfamily Object Control.\+Control\+Recluso.\+buscar\+Expediente (\begin{DoxyParamCaption}\item[{string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+Busca busca el expediente del recluso cuya cpedula coincida con {\itshape cedula} . 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cedula} & Cédula del Recluso cuyo Expediente se busca.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un Expediente.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a20377bde478747ad77629b19451eb8a2}\label{class_control_1_1_control_recluso_a20377bde478747ad77629b19451eb8a2}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!BuscarRecluso@{BuscarRecluso}}
+\index{BuscarRecluso@{BuscarRecluso}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{BuscarRecluso()}{BuscarRecluso()}}
+{\footnotesize\ttfamily Object Control.\+Control\+Recluso.\+Buscar\+Recluso (\begin{DoxyParamCaption}\item[{string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+Busca un Recluso cuya cédula coincida con {\itshape cedula} . 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cedula} & Cédula del Recluso a buscar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un Object con los datos del Recluso.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a875112d3b1702011c3841c6e4e7e590f}\label{class_control_1_1_control_recluso_a875112d3b1702011c3841c6e4e7e590f}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!ConvertirAnonimo@{ConvertirAnonimo}}
+\index{ConvertirAnonimo@{ConvertirAnonimo}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{ConvertirAnonimo()}{ConvertirAnonimo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Object Control.\+Control\+Recluso.\+Convertir\+Anonimo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_cargo}{Cargo}}}]{cargo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte un objeto \begin{DoxySeeAlso}{Ver también}
+Cargo, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cargo} & Cargo a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Object
+
+
+\end{DoxySeeAlso}
+con los datos del {\itshape cargo} .
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a38b68b47773cc1e4e590a53b07e0bf45}\label{class_control_1_1_control_recluso_a38b68b47773cc1e4e590a53b07e0bf45}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!ConvertirAnonimo@{ConvertirAnonimo}}
+\index{ConvertirAnonimo@{ConvertirAnonimo}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{ConvertirAnonimo()}{ConvertirAnonimo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Object Control.\+Control\+Recluso.\+Convertir\+Anonimo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model_1_1_recluso}{Recluso}}}]{recluso }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte un objeto \begin{DoxySeeAlso}{Ver también}
+Recluso, Object
+
+
+\end{DoxySeeAlso}
+en un objeto anónimo() que la capa de Vista puede entender. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em recluso} & Cargo a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Un \begin{DoxySeeAlso}{Ver también}
+Object
+
+
+\end{DoxySeeAlso}
+con los datos del {\itshape recluso} .
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_aba05b8309670455796238090278ce5fb}\label{class_control_1_1_control_recluso_aba05b8309670455796238090278ce5fb}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!existeCodigo@{existeCodigo}}
+\index{existeCodigo@{existeCodigo}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{existeCodigo()}{existeCodigo()}}
+{\footnotesize\ttfamily bool Control.\+Control\+Recluso.\+existe\+Codigo (\begin{DoxyParamCaption}\item[{string}]{codigo }\end{DoxyParamCaption})}
+
+
+
+Valida que no exista un \mbox{\hyperlink{}{con el mismo }} registrado. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em codigo} & Código del nuevo Recluso a insertar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Si el {\itshape codigo}  ya está registrado devuelve true,si no, devlueve false.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_ab37aa8d78937a0de20608347413ff164}\label{class_control_1_1_control_recluso_ab37aa8d78937a0de20608347413ff164}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!GetListaDatosCargos@{GetListaDatosCargos}}
+\index{GetListaDatosCargos@{GetListaDatosCargos}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{GetListaDatosCargos()}{GetListaDatosCargos()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Control\+Recluso.\+Get\+Lista\+Datos\+Cargos (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_model_1_1_cargo}{Cargo}} $>$}]{cargos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte una lista de \begin{DoxySeeAlso}{Ver también}
+Cargo, Object
+
+
+\end{DoxySeeAlso}
+s en una lista de objetos anónimos() que la capa de vista pueda entender. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cargos} & Lista de cargos a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de objetos anónimos(\begin{DoxySeeAlso}{Ver también}
+Object
+
+
+\end{DoxySeeAlso}
+).
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a296852d53e6a164f83127b1327d70d6e}\label{class_control_1_1_control_recluso_a296852d53e6a164f83127b1327d70d6e}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!GetListaDatosReclusos@{GetListaDatosReclusos}}
+\index{GetListaDatosReclusos@{GetListaDatosReclusos}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{GetListaDatosReclusos()}{GetListaDatosReclusos()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Control\+Recluso.\+Get\+Lista\+Datos\+Reclusos (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_model_1_1_recluso}{Recluso}} $>$}]{reclusos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Convierte una lista de \begin{DoxySeeAlso}{Ver también}
+Recluso, Object
+
+
+\end{DoxySeeAlso}
+s en una lista de objetos anónimos() que la capa de vista pueda entender. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em reclusos} & Lista de reclusos a convertir.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista de objetos anónimos(\begin{DoxySeeAlso}{Ver también}
+Object
+
+
+\end{DoxySeeAlso}
+).
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a2f29cab695b3fa6b99e050e9fb15541e}\label{class_control_1_1_control_recluso_a2f29cab695b3fa6b99e050e9fb15541e}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!GuardarRecluso@{GuardarRecluso}}
+\index{GuardarRecluso@{GuardarRecluso}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{GuardarRecluso()}{GuardarRecluso()}}
+{\footnotesize\ttfamily bool Control.\+Control\+Recluso.\+Guardar\+Recluso (\begin{DoxyParamCaption}\item[{string}]{codigo,  }\item[{string}]{nombre,  }\item[{string}]{apellido,  }\item[{string}]{genero,  }\item[{Date\+Time}]{fecha,  }\item[{int}]{id\+Expediente,  }\item[{string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+Guarda los datos de un nuevo Recluso. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em codigo} & Código del nuevo Recluso.\\
+\hline
+{\em nombre} & Nombres del nuevo Recluso.\\
+\hline
+{\em apellido} & Apelidos del nuevo Recluso.\\
+\hline
+{\em genero} & Género del nuevo Recluso.\\
+\hline
+{\em fecha} & Fecha de nacimiento del nuevo Recluso.\\
+\hline
+{\em id\+Expediente} & ID del Expediente del nuevo Recluso.\\
+\hline
+{\em cedula} & Cédula del nuevo Recluso.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Si el Recluso se registró correctamente devuelve true,si no, devlueve false.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Cedula\+Repetida\+Exception} & Cuando ya existe un Recluso registrado con esa {\itshape cedula} \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a62f9cb03272579733e2640738320d5ed}\label{class_control_1_1_control_recluso_a62f9cb03272579733e2640738320d5ed}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!ListarCargos@{ListarCargos}}
+\index{ListarCargos@{ListarCargos}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{ListarCargos()}{ListarCargos()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Control\+Recluso.\+Listar\+Cargos (\begin{DoxyParamCaption}\item[{string}]{codigo\+Expediente }\end{DoxyParamCaption})}
+
+
+
+Lista los Cargos de un Expediente cuyo código coincida con {\itshape codigo\+Expediente} . 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em codigo\+Expediente} & Código del Expediente cuyos Cargos se van a listar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Una lista con la información de cada Cargo del Expediente.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em \mbox{\hyperlink{class_control_1_1_general_excepcion}{General\+Excepcion}}} & Cuando no se encontró ningún Cargo registrado en ese Expediente.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a2a82449328244135e190070b7030d471}\label{class_control_1_1_control_recluso_a2a82449328244135e190070b7030d471}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!ListarReclusos@{ListarReclusos}}
+\index{ListarReclusos@{ListarReclusos}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{ListarReclusos()}{ListarReclusos()}}
+{\footnotesize\ttfamily List$<$ Object $>$ Control.\+Control\+Recluso.\+Listar\+Reclusos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Lista a todos los datos de reclusos del sistema. 
+
+\begin{DoxyReturn}{Devuelve}
+Una lista con la información de cada Recluso registrado en el sistema.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em \mbox{\hyperlink{class_control_1_1_general_excepcion}{General\+Excepcion}}} & Cuando no se encontró ningún Recluso registrado en el sistema.\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_control_1_1_control_recluso_a97b8e8c930ed00fcc7aa6a5292b4398b}\label{class_control_1_1_control_recluso_a97b8e8c930ed00fcc7aa6a5292b4398b}} 
+\index{Control.ControlRecluso@{Control.ControlRecluso}!ValidarRecluso@{ValidarRecluso}}
+\index{ValidarRecluso@{ValidarRecluso}!Control.ControlRecluso@{Control.ControlRecluso}}
+\doxysubsubsection{\texorpdfstring{ValidarRecluso()}{ValidarRecluso()}}
+{\footnotesize\ttfamily void Control.\+Control\+Recluso.\+Validar\+Recluso (\begin{DoxyParamCaption}\item[{string}]{cedula }\end{DoxyParamCaption})}
+
+
+
+Valida que no exista un Recluso con la misma {\itshape cedula} . 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em cedula} & Cédula a validar.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Excepciones}
+{\em Exception} & Cuando ya existe un Recluso registrado con esa {\itshape cedula} .\\
+\hline
+\end{DoxyExceptions}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+USER/\+Desktop/\+Proyecto\+Prision\+Sexto/\+Control/Control\+Recluso.\+cs\end{DoxyCompactItemize}

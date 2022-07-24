@@ -1,0 +1,1 @@
+search_result['20']=["topic_0000000000000008.html","DatosActividadPractica.EliminarActividad Method","Eliina un registro de \u003cseealso cref=\"ActividadPractica\" /\u003e de la base de datos del sistema cuya descripcion y modalidad coincidan."];

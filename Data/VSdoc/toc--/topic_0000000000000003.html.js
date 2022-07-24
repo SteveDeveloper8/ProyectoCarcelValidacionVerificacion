@@ -1,0 +1,1 @@
+var breadcrumbs=[['-1',"",""],['2',"Data Reference","topic_000000000000002A.html"],['4',"Data Namespace","topic_0000000000000000.html"],['5',"Conexion Class","topic_0000000000000001.html"],['8',"Methods","topic_0000000000000001_methods--.html"],['10',"Conectar Method","topic_0000000000000003.html"]];
